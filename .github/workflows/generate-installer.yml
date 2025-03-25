@@ -30,7 +30,7 @@ env:
 jobs:
   build:
     runs-on: macos-latest
-    if: github.repository == 'https://github.com/ThatUniPanda/Download-macOS.git'
+    if: github.repository == 'ThatUniPanda/Download-macOS'
     steps:
       - uses: actions/checkout@v4
       
